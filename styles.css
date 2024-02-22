@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-image: center center;
+    background-size: max(100px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 133px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap:23px;
+    padding: 0px 30px;
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400px;
+    font-size: 24px;
+text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation{
+    height: 7px;
+    background-color: rgb(74, 73, 73);
+    
+}
+
+.btn{
+    background-color: rgba(23, 23, 23, 0.7);;
+    border: none;
+    padding: 3px 8px;
+    font-weight: 700;
+    border-radius: 4px;
+    color:white;
+    border: 1px solid none;
+    cursor: pointer;
+
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 13px 24px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+
+.main input{
+    border-radius: 4px;
+    color: white;
+    padding: 14px 100px 14px 11px;
+    font-size: 16px;
+    font-weight: 900px;
+    background-color:rgba(23, 23, 23, 0.7);
+    /* background-color: gray; */
+    
+    border: 1px solid rgba(246, 238, 238, 0.5);
+   
+}
+
+.hero-buttons{
+    display: flex;
+    gap:8px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rightcorner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+   
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    align-items: center;
+    gap: 4.5rem;
+    padding: 7.5rem 0;
+
+
+}
+
+.btn img{
+    width: 20px;
+}
+
+
+.secimg{
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    flex-basis: 50%;
+    margin-right: 4.5rem;
+}
+.secimg img{
+    position: relative;
+    z-index: inherit;
+    width: 100%;
+   
+   
+}
+
+.secimg video{
+   
+    position: absolute;
+    width: 73%;
+    top: 21%;
+    left: 13%;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.first> div :first-child{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.first> div :nth-child(2){
+    font-size: 1.5rem;
+    
+
+}
+.first :first-child{
+    text-align: left;
+    flex-basis: 50%;
+  
+    
+}
+.first-header{
+    margin-left: 4.5rem;
+}
+
+.third .secimg video{
+    position: absolute;
+    width: 63%;
+    top: 8%;
+    left: 18%;
+    height: 49%;
+}
+
+@media (max-width: 500px){
+  
+   
+    .first> div :first-child{
+        font-size: 1.5rem;
+       
+    }
+    .first> div :nth-child(2){
+        font-size: 0.75rem;
+    }
+
+    .first{
+        flex-wrap: wrap;
+    }
+    .hero-buttons {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main input {
+        border-radius: 4px;
+        color: white;
+        padding: 9px 11px 1px 11px;
+        font-size: 13px;
+        font-weight: 900px;
+        background-color: rgba(23, 23, 23, 0.7);
+        /* background-color: gray; */
+        border: 1px solid rgba(246, 238, 238, 0.5);
+    }
+
+    .btn-red {
+        background-color: red;
+        color: white;
+        padding: 9px 63px;
+        font-size: 9px;
+        font-weight: 700;
+    }
+    
+}
+
+.faq h1{
+    font-size: 3rem;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    color: white;
+    align-items: center;
+    padding: 2rem;
+}
+
+.faqbox:hover{
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox{
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: #232323;
+    padding: 34px;
+    margin-top: 1%;
+    justify-content: space-between;
+    width: 80vw;
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+}
+.lower{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    
+    padding: 0.5rem 0 3rem 0;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 2rem;
+}
+footer .questions{
+    padding: 2rem 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width: 1300px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+.footer a{
+    /* text-decoration: none; */
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap:2rem;
+   
+  
+
+}
+
+.watch{
+    padding: 2.5rem;
+}
+.watch p{
+    padding: 1rem;
+}
+.hero-buttons2{
+    border-radius: 4px;
+    color: white;
+    padding: 14px 100px 14px 11px;
+    font-size: 16px;
+    font-weight: 900px;
+    background-color:rgba(23, 23, 23, 0.7);
+    /* background-color: gray; */
+    
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.e{
+    margin-right: 163px;
+}
