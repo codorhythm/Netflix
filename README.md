@@ -1,1 +1,1 @@
-Built a Netflix UI clone using HTML, CSS. Implemented features like movie browsing, search, and basic user interactions. Utilized responsive design principles to ensure a consistent viewing experience across various screen sizes. (Completed within 2 weeks)
+Built a Netflix UI clone using HTML, CSS. Implemented features like movie browsing, search, and basic user interactions. Utilized responsive design principles to ensure a consistent viewing experience across various screen sizes. (Completed within 1 week)
